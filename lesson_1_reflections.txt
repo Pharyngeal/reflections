@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff pin-pointed the location of the typo that led to the bug for me.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Cmnd+Z is a blessing.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you when you have to save at certain points by yourself, 
+    you will automatically be using that very savepoint as a reference when working 
+    on the code.  When the program saves for you automatically, the exact point of the
+    save loses all meaning. On the other hand, you never have to worry about 
+    forgetting to save if it's done automatically. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is made for programmers etc. This approach is useful when 
+    different files co-relates.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    To view the log I just use the command “git log”. In it I can scroll down using the arrow keys and when I am done i use the quit-command “q” to exit the log.
+To use the diff I use the command “git diff” followed by the first and second commit ID.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Again, Cmnd+Z (or rather the ability to revert  changes) is a blessing.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Nothing much. But the git diff and commit-functions should come in handy. I would prefer i with a decent UI, and I know that there is several, although I’m not sure that I will install any.
