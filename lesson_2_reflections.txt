@@ -6,3 +6,24 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is where everything I am currently working on temporary resides before being commited in the repository. This is useful when you want to commit several files in a single commit, and also it gives you control over exactly what, when and where you save thew commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	By running git diff with no argument periodically. This lets me see what changes I have done, but not yet commited.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	I for one will probably use braches just for the naming attribute, at least for starters. Perhaps later on I will use it to keep track of try-outs and such.
+
+How do the diagrams help you visualize the branch structure?
+
+	Fuck off. It's a branch structure. Just keep in mind that the commits runs in a linear fashion through the branches that you create. So far...
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Git figures out what pieces of code to keep and what to discard. The older commits are still accesible through git log.
+	Fuck your diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
+	Pros - Git can make the simple, almost obvious parts of the mergong process faster than any human.
+	Cons - As soon as it gets more complicated than that, you'll have to intervene anyway.
